@@ -1,0 +1,76 @@
+ // Fallback data for when API is not available
+ const fallbackNews = [
+    {
+      id: 1,
+      title: 'श्री विघ्नहर कारखान्याला राज्य स्तरीय पुरस्कार',
+      summary: 'उत्कृष्ट कामगिरीसाठी महाराष्ट्र शासनाकडून सन्मान',
+      date: '१५ डिसेंबर २०२३',
+      category: 'पुरस्कार',
+      image: 'https://shrivighnaharssk.com/wp-content/uploads/2021/06/8-1-1024x549.jpg',
+      featured: true
+    },
+    {
+      id: 2,
+      title: 'नवीन तंत्रज्ञानाचा वापर करून उत्पादन वाढविण्याचा निर्णय',
+      summary: 'आधुनिक यंत्रसामग्री आणण्यासाठी ५० करोड रुपयांची मंजुरी',
+      date: '१० डिसेंबर २०२३',
+      category: 'तंत्रज्ञान',
+      image: 'https://shrivighnaharssk.com/wp-content/uploads/2021/06/DSC_8314.jpg',
+      featured: false
+    },
+    {
+      id: 3,
+      title: 'शेतकरी कल्याण योजनेचा विस्तार',
+      summary: 'आणखी २००० शेतकऱ्यांना योजनेचा लाभ मिळणार',
+      date: '५ डिसेंबर २०२३',
+      category: 'कल्याण',
+      image: 'https://shrivighnaharssk.com/wp-content/uploads/2021/06/4-1.jpg',
+      featured: false
+    }
+  ];
+
+  const fallbackCategories = [
+    { name: 'सर्व बातम्या', count: 25, id: 'all' },
+    { name: 'पुरस्कार', count: 8, id: 'awards' },
+    { name: 'तंत्रज्ञान', count: 5, id: 'technology' },
+    { name: 'कल्याण', count: 7, id: 'welfare' },
+    { name: 'पर्यावरण', count: 3, id: 'environment' }
+  ];
+
+   // return response.data;
+   const featuredNewsData = [
+    {
+      _id: '1',
+      title: 'कारखान्याला राष्ट्रीय पुरस्कार',
+      excerpt: 'उत्कृष्ट कामगिरीसाठी केंद्र सरकारकडून सन्मान',
+      content: 'श्री विघ्नहर सहकारी साखर कारखान्याला याबाबत राष्ट्रीय पुरस्कार प्रदान करण्यात आला आहे...',
+      image: 'https://shrivighnaharssk.com/wp-content/uploads/2021/06/award-ceremony.jpg',
+      category: 'पुरस्कार',
+      isFeatured: true,
+      publishedAt: '२०२३-१२-१५',
+      author: 'कार्यालय प्रवक्ता'
+    },
+    {
+      _id: '2',
+      title: 'नवीन तंत्रज्ञान सुरू',
+      excerpt: 'अत्याधुनिक यंत्रसामग्री बसवण्यात आली',
+      content: 'कारखान्यात नवीन तंत्रज्ञानाची यंत्रसामग्री बसवण्यात आली आहे...',
+      image: 'https://shrivighnaharssk.com/wp-content/uploads/2021/06/new-machinery.jpg',
+      category: 'तंत्रज्ञान',
+      isFeatured: true,
+      publishedAt: '२०२३-१२-१०',
+      author: 'तांत्रिक विभाग'
+    },
+    {
+      _id: '3',
+      title: 'शेतकरी कल्याण योजना',
+      excerpt: 'नवीन कल्याणकारी योजनांची घोषणा',
+      content: 'शेतकऱ्यांच्या कल्याणासाठी अनेक नवीन योजना सुरू करण्यात आल्या आहेत...',
+      image: 'https://shrivighnaharssk.com/wp-content/uploads/2021/06/welfare-scheme.jpg',
+      category: 'कल्याण',
+      isFeatured: true,
+      publishedAt: '२०२३-१२-०५',
+      author: 'कल्याण विभाग'
+    }
+  ];
+  export { fallbackNews, fallbackCategories, featuredNewsData };
