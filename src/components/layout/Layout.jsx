@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
-import Footer from './Footer';
 import { useSelector } from 'react-redux';
+import Footer from './Footer.jsx';
 
 const Layout = ({ children }) => {
   const { isLoading } = useSelector((state) => state.ui);
